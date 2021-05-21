@@ -26,10 +26,10 @@ class TableWidget extends ConsumerWidget {
           child: DataTable(
             sortColumnIndex: sortIndex,
             sortAscending: sortAscending,
-            dataTextStyle: TextStyle(
-              fontFamily: 'hiragino',
-              fontFamilyFallback: ['emoji'],
-            ),
+            // dataTextStyle: TextStyle(
+            //   fontFamily: 'arial',
+            //   fontFamilyFallback: ['emoji'],
+            // ),
             columns: [
               for (var key in entryKeys)
                 DataColumn(

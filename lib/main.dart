@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
       title: title,
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        fontFamily: 'hiragino',
       ),
       home: PdfPage(),
     );

@@ -56,12 +56,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: hiragino
-      fonts:
-        - asset: fonts/hiragino.ttc
-    - family: emoji
-      fonts:
-        - asset: fonts/emoji.ttc
+    # - family: noto_sans
+    #   fonts:
+    #     - asset: fonts/noto_sans.ttf
+    # - family: emoji
+    #   fonts:
+    #     - asset: fonts/emoji.ttf
     - family: arial
       fonts:
         - asset: fonts/arial.ttf

@@ -1,11 +1,11 @@
 const entryData = <Map<String, dynamic>>[
   {
-    "description": "Pineapple Pizza 🍕",
+    "description": "Pineapple Pizza",
     "quantity": 100,
     "unitPrice": 1000,
   },
   {
-    "description": "Big Mouse 🐹",
+    "description": "Big Mouse",
     "quantity": 450,
     "unitPrice": 6250,
   },
@@ -15,7 +15,7 @@ const entryData = <Map<String, dynamic>>[
     "unitPrice": 9000,
   },
   {
-    "description": "Healthy Coke 🍺",
+    "description": "Healthy Coke",
     "quantity": 900,
     "unitPrice": 120,
   },
@@ -35,12 +35,12 @@ const entryData = <Map<String, dynamic>>[
     "unitPrice": 70000,
   },
   {
-    "description": "Apple Pizza 🍎",
+    "description": "Apple Pizza",
     "quantity": 100,
     "unitPrice": 1000,
   },
   {
-    "description": "Ripoff T-Shirt",
+    "description": "Small T-Shirt",
     "quantity": 45,
     "unitPrice": 6250,
   },
@@ -80,12 +80,12 @@ const entryData = <Map<String, dynamic>>[
     "unitPrice": 6250,
   },
   {
-    "description": "Legit Rubber",
+    "description": "Rubbery Rubber",
     "quantity": 10,
     "unitPrice": 9000,
   },
   {
-    "description": "Duper Yo-Yo",
+    "description": "Hyper Yo-Yo",
     "quantity": 900,
     "unitPrice": 120,
   },

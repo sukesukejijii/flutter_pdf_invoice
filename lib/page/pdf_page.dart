@@ -65,8 +65,6 @@ class PdfPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    DropdownWidget(),
-                    SizedBox(width: 60),
                     Consumer(
                       builder: (context, watch, child) {
                         final fakeEntries = watch(fakeEntriesProvider);
@@ -74,23 +72,6 @@ class PdfPage extends StatelessWidget {
                         final netTotal = watch(netTotalProvider);
                         return Row(
                           children: [
-                            Text.rich(
-                              TextSpan(
-                                text: 'Item Count:   ',
-                                children: [
-                                  TextSpan(
-                                    text: itemCount.toString().padLeft(2, '0'),
-                                    style: TextStyle(
-                                      fontSize: 24,
-                                      fontWeight: FontWeight.bold,
-                                      letterSpacing: 1,
-                                      color: Colors.indigo[700],
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            SizedBox(width: 60),
                             Text.rich(
                               TextSpan(
                                 text: 'Net Total:   ',
@@ -107,10 +88,29 @@ class PdfPage extends StatelessWidget {
                                 ],
                               ),
                             ),
+                            SizedBox(width: 60),
+                            Text.rich(
+                              TextSpan(
+                                text: 'Item Count:   ',
+                                children: [
+                                  TextSpan(
+                                    text: itemCount.toString().padLeft(2, '0'),
+                                    style: TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                      letterSpacing: 1,
+                                      color: Colors.indigo[700],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
                           ],
                         );
                       },
                     ),
+                    SizedBox(width: 60),
+                    DropdownWidget(),
                   ],
                 ),
               ),
